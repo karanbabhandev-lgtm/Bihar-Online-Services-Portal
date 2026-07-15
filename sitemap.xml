@@ -1,25 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>https://YOURUSERNAME.github.io/YOUR-REPOSITORY/</loc>
+<loc>https://karanbabhandev-lgtm.github.io/Bihar-Online-Services-Portal/</loc>
 <priority>1.0</priority>
 </url>
 
 <url>
-<loc>https://YOURUSERNAME.github.io/YOUR-REPOSITORY/services/ration-card.html</loc>
+<loc>https://karanbabhandev-lgtm.github.io/Bihar-Online-Services-Portal/services/ration-card.html</loc>
 <priority>0.9</priority>
 </url>
 
 <url>
-<loc>https://YOURUSERNAME.github.io/YOUR-REPOSITORY/services/add-member.html</loc>
+<loc>https://karanbabhandev-lgtm.github.io/Bihar-Online-Services-Portal/services/search-ration-card.html</loc>
 <priority>0.9</priority>
 </url>
 
 <url>
-<loc>https://YOURUSERNAME.github.io/YOUR-REPOSITORY/services/download-ration-card.html</loc>
+<loc>https://karanbabhandev-lgtm.github.io/Bihar-Online-Services-Portal/services/download-ration-card.html</loc>
 <priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://karanbabhandev-lgtm.github.io/Bihar-Online-Services-Portal/services/add-member.html</loc>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://karanbabhandev-lgtm.github.io/Bihar-Online-Services-Portal/services/delete-member.html</loc>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://karanbabhandev-lgtm.github.io/Bihar-Online-Services-Portal/services/ekyc.html</loc>
+<priority>0.9</priority>
+</url>
+
+<url>
+<loc>https://karanbabhandev-lgtm.github.io/Bihar-Online-Services-Portal/services/status.html</loc>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://karanbabhandev-lgtm.github.io/Bihar-Online-Services-Portal/services/transfer.html</loc>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://karanbabhandev-lgtm.github.io/Bihar-Online-Services-Portal/services/name-correction.html</loc>
+<priority>0.8</priority>
 </url>
 
 </urlset>
