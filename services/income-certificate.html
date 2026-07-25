@@ -10,6 +10,101 @@
 <meta name="robots" content="index, follow">
 <link rel="stylesheet" href="../style.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  .ic-banner {
+    background: linear-gradient(120deg, #FF6B6B 0%, #F5A623 35%, #FFC93C 65%, #6BCB77 100%);
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  }
+  .ic-banner .icon-badge {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .ic-banner h1 {
+    font-size: 2.2rem;
+    margin: 0 0 8px 0;
+  }
+  .ic-banner p {
+    font-size: 1.1rem;
+    opacity: 0.95;
+    margin: 0;
+  }
+  .ic-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  .ic-card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-top: 4px solid #ccc;
+  }
+  .ic-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 22px rgba(0,0,0,0.13);
+  }
+  .ic-card:nth-child(1) { border-top-color: #FF6B6B; }
+  .ic-card:nth-child(2) { border-top-color: #F5A623; }
+  .ic-card:nth-child(3) { border-top-color: #4D96FF; }
+  .ic-card:nth-child(4) { border-top-color: #6BCB77; }
+  .ic-card:nth-child(1) h3 { color: #E8503C; }
+  .ic-card:nth-child(2) h3 { color: #E8871E; }
+  .ic-card:nth-child(3) h3 { color: #2E75D6; }
+  .ic-card:nth-child(4) h3 { color: #3FA34D; }
+  .ic-card .emoji {
+    font-size: 36px;
+    margin-bottom: 12px;
+  }
+  .ic-card h3 {
+    margin: 0 0 8px 0;
+    font-size: 1.15rem;
+  }
+  .ic-card p {
+    color: #555;
+    font-size: 0.92rem;
+    margin: 0;
+  }
+  .ic-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 20px 50px 20px;
+  }
+  .ic-content h2 {
+    color: #E8871E;
+    margin-top: 36px;
+  }
+  .ic-content ul, .ic-content ol {
+    line-height: 1.8;
+  }
+  .ic-official-box {
+    background: linear-gradient(135deg, #FFF4E5, #FFE9E9);
+    border-left: 5px solid #F5A623;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 30px 0;
+    text-align: center;
+  }
+  .ic-official-box a {
+    display: inline-block;
+    margin-top: 12px;
+    background: linear-gradient(120deg, #FF6B6B, #F5A623);
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  }
+</style>
 </head>
 <body>
 
@@ -29,10 +124,44 @@
 </div>
 </header>
 
-<!-- ================= PAGE CONTENT ================= -->
-<section class="service-detail" style="padding: 40px 20px; max-width: 800px; margin: 0 auto;">
+<!-- ================= COLORFUL BANNER ================= -->
+<section class="ic-banner">
+<div class="icon-badge">📄</div>
+<h1>Income Certificate Portal</h1>
+<p>Aay Praman Patra Online Services</p>
+</section>
 
-<h1>Income Certificate (आय प्रमाण पत्र) Kaise Banaye</h1>
+<!-- ================= FEATURE CARDS ================= -->
+<section class="ic-grid">
+
+<div class="ic-card">
+<div class="emoji">📝</div>
+<h3>Apply Online</h3>
+<p>Naya Income Certificate ke liye online application karein.</p>
+</div>
+
+<div class="ic-card">
+<div class="emoji">📥</div>
+<h3>Download Certificate</h3>
+<p>Approved Income Certificate download karein.</p>
+</div>
+
+<div class="ic-card">
+<div class="emoji">🔍</div>
+<h3>Check Status</h3>
+<p>Apni application ka current status check karein.</p>
+</div>
+
+<div class="ic-card">
+<div class="emoji">📋</div>
+<h3>Required Documents</h3>
+<p>Application ke liye zaroori documents ki list dekhein.</p>
+</div>
+
+</section>
+
+<!-- ================= DETAILED GUIDE ================= -->
+<section class="ic-content">
 
 <p>
 Income Certificate ek zaroori document hai jo aapki family ki annual income prove karta hai.
@@ -41,7 +170,7 @@ ye certificate <strong>RTPS (Right to Public Service) Bihar portal</strong> se o
 kiya ja sakta hai — bilkul free, koi fees nahi lagti.
 </p>
 
-<h2>Zaroori Documents</h2>
+<h2>📋 Zaroori Documents</h2>
 <ul>
 <li>Aadhaar Card</li>
 <li>Residence Proof (Ration Card / Voter ID / Electricity Bill)</li>
@@ -50,7 +179,7 @@ kiya ja sakta hai — bilkul free, koi fees nahi lagti.
 <li>Self-declaration form (portal par available hota hai)</li>
 </ul>
 
-<h2>Online Apply Karne Ka Process</h2>
+<h2>📝 Online Apply Karne Ka Process</h2>
 <ol>
 <li>Official RTPS Bihar website kholein: <strong>serviceonline.bihar.gov.in</strong></li>
 <li>Homepage par <strong>"Apply Online"</strong> option par click karein.</li>
@@ -62,22 +191,22 @@ kiya ja sakta hai — bilkul free, koi fees nahi lagti.
 <li>Submit karne ke baad aapko ek <strong>Application Reference Number</strong> milega — isse aap apne mobile par SMS mein bhi paayenge. Ise sambhal kar rakhein.</li>
 </ol>
 
-<h2>Certificate Download Kaise Karein</h2>
+<h2>📥 Certificate Download Kaise Karein</h2>
 <p>
 Application process hone ke baad (usually kuch dinon mein), aap <strong>serviceonline.bihar.gov.in</strong>
 par jaakar <strong>"Download Certificate"</strong> option se, apna Application Reference Number aur
 naam daal kar apna certificate download kar sakte hain.
 </p>
 
-<div class="notice" style="margin: 30px 0;">
-<span class="live"></span>
-Ye website sirf jaankari deti hai — apna application yahin official portal par karein
-<a href="https://serviceonline.bihar.gov.in/" target="_blank" rel="noopener" class="notice-btn">
-Official Website Par Jaayein
+<div class="ic-official-box">
+<strong>Ye website sirf jaankari deti hai — apna application yahin official portal par karein</strong>
+<br>
+<a href="https://serviceonline.bihar.gov.in/" target="_blank" rel="noopener">
+Official Website Par Jaayein →
 </a>
 </div>
 
-<h2>Important Baatein</h2>
+<h2>⚠️ Important Baatein</h2>
 <ul>
 <li>Ye service <strong>100% free</strong> hai — koi bhi agent ya website agar paise maange to sambhal kar rahein, ye scam ho sakta hai.</li>
 <li>Apni details bharte waqt sahi jaankari dein, galat information se application reject ho sakta hai.</li>
