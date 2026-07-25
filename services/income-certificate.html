@@ -47,6 +47,9 @@
     box-shadow: 0 4px 14px rgba(0,0,0,0.08);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     border-top: 4px solid #ccc;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
   }
   .ic-card:hover {
     transform: translateY(-6px);
@@ -134,29 +137,29 @@
 <!-- ================= FEATURE CARDS ================= -->
 <section class="ic-grid">
 
-<div class="ic-card">
+<a href="https://serviceonline.bihar.gov.in/" target="_blank" rel="noopener" class="ic-card">
 <div class="emoji">📝</div>
 <h3>Apply Online</h3>
 <p>Naya Income Certificate ke liye online application karein.</p>
-</div>
+</a>
 
-<div class="ic-card">
+<a href="https://swcs.bihar.gov.in/RtpsReportView/certificate_download.jsp" target="_blank" rel="noopener" class="ic-card">
 <div class="emoji">📥</div>
 <h3>Download Certificate</h3>
 <p>Approved Income Certificate download karein.</p>
-</div>
+</a>
 
-<div class="ic-card">
+<a href="https://serviceonline.bihar.gov.in/officials/citizenApplication.html" target="_blank" rel="noopener" class="ic-card">
 <div class="emoji">🔍</div>
 <h3>Check Status</h3>
 <p>Apni application ka current status check karein.</p>
-</div>
+</a>
 
-<div class="ic-card">
+<a href="#documents" class="ic-card">
 <div class="emoji">📋</div>
 <h3>Required Documents</h3>
 <p>Application ke liye zaroori documents ki list dekhein.</p>
-</div>
+</a>
 
 </section>
 
@@ -170,7 +173,7 @@ ye certificate <strong>RTPS (Right to Public Service) Bihar portal</strong> se o
 kiya ja sakta hai — bilkul free, koi fees nahi lagti.
 </p>
 
-<h2>📋 Zaroori Documents</h2>
+<h2 id="documents">📋 Zaroori Documents</h2>
 <ul>
 <li>Aadhaar Card</li>
 <li>Residence Proof (Ration Card / Voter ID / Electricity Bill)</li>
